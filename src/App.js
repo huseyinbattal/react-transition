@@ -78,7 +78,7 @@ function App() {
       <FadeComponent in={show} />
 
       <CSSTransition in={show} timeout={500} classNames="alert" > 
-        
+        <div>Merhaba Ben CSSTransition</div>
      </CSSTransition>
 
 
